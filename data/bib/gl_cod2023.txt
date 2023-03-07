@@ -1,0 +1,6 @@
+@article{lee2022global,
+  title={Global-Local Aggregation with Deformable Point Sampling for Camouflaged Object Detection},
+  author={Lee, Minhyeok and Cho, Suhwan and Park, Chaewon and Lee, Dogyoon and Lee, Jungho and Lee, Sangyoun},
+  journal={arXiv preprint arXiv:2211.12048},
+  year={2022}
+}

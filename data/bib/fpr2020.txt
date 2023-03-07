@@ -1,0 +1,8 @@
+@inproceedings{woo2020false,
+  title={False Positive Removal for 3D Vehicle Detection With Penetrated Point Classifier},
+  author={Woo, Sungmin and Hwang, Sangwon and Kim, Woojin and Lee, Junhyeop and Lee, Dogyoon and Lee, Sangyoun},
+  booktitle={2020 IEEE International Conference on Image Processing (ICIP)},
+  pages={2721--2725},
+  year={2020},
+  organization={IEEE}
+}

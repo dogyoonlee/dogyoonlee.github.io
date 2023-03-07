@@ -1,0 +1,480 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Dogyoon Lee</title>
+  
+  <meta name="author" content="Dogyoon Lee">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Dogyoon Lee</name>
+              </p>
+              <p>I am Ph.D candidate at <a href="https://www.yonsei.ac.kr">Yonsei University</a> in <a href="https://en.wikipedia.org/wiki/Seoul">Seoul</a>, where I work on computer vision and machine learning.
+              </p>
+              <!-- <p>
+                I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">Jump</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, and <a href="https://www.matthewtancik.com/nerf">NeRF</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a> and funded by the <a href="http://www.nsfgrfp.org/">NSF GRFP</a>. I've received the <a href="https://www2.eecs.berkeley.edu/Students/Awards/15/">C.V. Ramamoorthy Distinguished Research Award</a> and the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+              </p> -->
+              <p style="text-align:center">
+                <a href="malito:dogyoonlee@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/resume/dogyoonlee-resume.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/resume/dogyoonlee-bio.txt">Bio</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=gX4ko0IAAAAJ&hl=ko">Google Scholar</a> &nbsp/&nbsp
+                <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
+                <a href="https://github.com/dogyoonlee/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/profile/dogyoonlee.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile/dogyoonlee_circle.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in 2D/3D computer vision, graphics, and machine learning. Recent research topic is mainly related to neural rendering with various conditions. Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+				
+      
+<tr onmouseout="dpnerf_stop()" onmouseover="dpnerf_start()"  bgcolor="#ffffd0">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='dpnerf_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="images/dpnerf/dpnerf_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='images/dpnerf/dpnerf_image.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function dpnerf_start() {
+        document.getElementById('dpnerf_image').style.opacity = "1";
+      }
+
+      function dpnerf_stop() {
+        document.getElementById('dpnerf_image').style.opacity = "0";
+      }
+      dpnerf_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/pdf/2211.12046.pdf">
+      <papertitle>DP-NeRF: Deblurred Neural Radiance Field with Physical Scene Priors</papertitle>
+    </a>
+    <br>
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://scholar.google.com/citations?user=flyFxPsAAAAJ&hl=ko&oi=ao">Chajin Shin</a>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>IEEE/CVF Computer Vision and Pattern Recognition (CVPR)</em>, 2023 
+    <br>
+    <a href="https://dogyoonlee.github.io/dpnerf">Project page</a>
+    /
+    <a href="https://arxiv.org/pdf/2211.12046.pdf">Paper</a>
+    /
+    <a href="https://github.com/dogyoonlee/DP-NeRF">Code</a>
+    /
+    <a href="data/bib/dpnerf2023.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We impose the physical constraints on the blurring kernel of neural radiance field to construct clean neural radiance field from blurry images.
+    </p>
+  </td>
+</tr>
+
+
+<tr onmouseout="glcod_stop()" onmouseover="glcod_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='gl_cod_image'>
+        <img src='images/gl_cod/gl_cod_after.png' width="160"></div>
+      <img src='images/gl_cod/gl_cod_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function glcod_start() {
+        document.getElementById('gl_cod_image').style.opacity = "1";
+      }
+
+      function glcod_stop() {
+        document.getElementById('gl_cod_image').style.opacity = "0";
+      }
+      glcod_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/pdf/2211.12048.pdf">
+      <papertitle>Global-Local Aggregation with Deformable Point Sampling for Camouflaged Object Detection</papertitle>
+    </a>
+    <br>
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://scholar.google.com/citations?user=c8N2BNYAAAAJ&hl=ko&oi=ao">Suhwan Cho</a>,
+    <a href="https://scholar.google.com/citations?user=OskGL0sAAAAJ&hl=ko&oi=ao">Chaewon Park</a>,
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://github.com/Jho-Yonsei">Jungho Lee</a>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>Preprint</em>, 2023 
+    <br>
+    <a href="https://arxiv.org/pdf/2211.12048.pdf">Paper</a>
+    /
+    <a href="https://hydragon.co.kr/">Code</a>
+    /
+    <a href="data/bib/gl_cod2023.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose novel deformable point sampling method and global-local aggregation architecture to integrate object's global information, background, and boundary local information to improve the camouflaged object detection.
+    </p>
+  </td>
+</tr>
+
+
+<tr onmouseout="hdgcn_stop()" onmouseover="hdgcn_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='hdgcn_image'>
+        <img src='images/hdgcn/hdgcn_after.png' width="160"></div>
+      <img src='images/hdgcn/hdgcn_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function hdgcn_start() {
+        document.getElementById('hdgcn_image').style.opacity = "1";
+      }
+
+      function hdgcn_stop() {
+        document.getElementById('hdgcn_image').style.opacity = "0";
+      }
+      hdgcn_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/pdf/2208.10741.pdf">
+      <papertitle>Hierarchically Decomposed Graph Convolutional Networks for Skeleton- Based Action Recognition</papertitle>
+    </a>
+    <br>
+    <a href="https://github.com/Jho-Yonsei">Jungho Lee</a>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <strong>Dogyoon Lee</strong>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>Preprint</em>, 2023 
+    <br>
+    <a href="https://arxiv.org/pdf/2208.10741.pdf">Paper</a>
+    /
+    <a href="https://github.com/Jho-Yonsei/HD-GCN">Code</a>
+    /
+    <a href="data/bib/hdgcn2023.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose a hierarchically decomposed graph convolution with a novel hierarchically decomposed graph, which consider the sematic correlation between the joints and the edges of the human skeleton.
+    </p>
+  </td>
+</tr>
+
+
+
+<tr onmouseout="easn_stop()" onmouseover="easn_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='easn_image'>
+        <img src='images/easn/easn_after.png' width="160"></div>
+      <img src='images/easn/easn_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function easn_start() {
+        document.getElementById('easn_image').style.opacity = "1";
+      }
+
+      function easn_stop() {
+        document.getElementById('easn_image').style.opacity = "0";
+      }
+      easn_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770392.pdf">
+      <papertitle>Expanded Adaptive Scaling Normalization for End-to-End Image Compression</papertitle>
+    </a>
+    <br>
+    <a href="https://scholar.google.com/citations?user=flyFxPsAAAAJ&hl=ko&oi=ao">Chajin Shin</a>,
+    <a href="http://hyeongminlee.github.io">Hyeongmin Lee</a>,
+    <a href="https://scholar.google.com/citations?user=PuId8x8AAAAJ&hl=ko&oi=aor">Hanbin Son</a>,
+    <a href="https://scholar.google.com/citations?user=W0TdF-EAAAAJ&hl=ko&oi=sra">Sangjin Lee</a>,
+    <strong>Dogyoon Lee</strong>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>European Conference on Computer Vision (ECCV)</em>, 2022 
+    <br>
+    <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770392.pdf">Paper</a>
+    /
+    <a href="https://github.com/ChajinShin/EASN">Code</a>
+    /
+    <a href="data/bib/easn2022.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose rescaling module for the image compression network which is enhanced version of existing GDN with higher degree of freedom.
+    </p>
+  </td>
+</tr>
+
+
+
+<tr onmouseout="robustlane_stop()" onmouseover="robustlane_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='robust_lane_image'>
+        <img src='images/robust_lane/lane_after.png' width="160"></div>
+      <img src='images/robust_lane/lane_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function robustlane_start() {
+        document.getElementById('robust_lane_image').style.opacity = "1";
+      }
+
+      function robustlane_stop() {
+        document.getElementById('robust_lane_image').style.opacity = "0";
+      }
+      robustlane_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/pdf/2102.07037.pdf">
+      <papertitle>Robust Lane Detection via Expanded Self attention</papertitle>
+    </a>
+    <br>
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://scholar.google.com/citations?user=1b4K9wsAAAAJ&hl=ko&oi=ao">Junhyeop Lee</a>,
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://scholar.google.com/citations?user=hDyC0w0AAAAJ&hl=ko&oi=sra">Woojin Kim</a>,
+    <a href="https://scholar.google.com/citations?user=OgE2y40AAAAJ&hl=ko&oi=ao">Sangwon Hwang</a>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em>, 2022 
+    <br>
+    <a href="https://arxiv.org/pdf/2102.07037.pdf">Paper</a>
+    /
+    <a href="https://github.com/Hydragon516/ESA-official">Code</a>
+    /
+    <a href="data/bib/robustlane2022.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose a novel self-attention module called the Expanded Self Attention for lane detection in autonomous vehicle to be robust in challenging situations.
+    </p>
+  </td>
+</tr>
+
+
+<tr onmouseout="rsmix_stop()" onmouseover="rsmix_start()"   bgcolor="#ffffd0">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='rsmix_image'>
+        <img src='images/rsmix/rsmix_after.png' width="160"></div>
+      <img src='images/rsmix/rsmix_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function rsmix_start() {
+        document.getElementById('rsmix_image').style.opacity = "1";
+      }
+
+      function rsmix_stop() {
+        document.getElementById('rsmix_image').style.opacity = "0";
+      }
+      rsmix_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Regularization_Strategy_for_Point_Cloud_via_Rigidly_Mixed_Sample_CVPR_2021_paper.pdf">
+      <papertitle>Regularization Strategy for Point Cloud via Rigidly Mixed Sample</papertitle>
+    </a>
+    <br>
+    <strong>Dogyoon Lee</strong>,
+    Jaeha Lee,
+    <a href="https://scholar.google.com/citations?user=1b4K9wsAAAAJ&hl=ko&oi=ao">Junhyeop Lee</a>,
+    <a href="http://hyeongminlee.github.io">Hyeongmin Lee</a>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://scholar.google.com/citations?user=q1BRGh0AAAAJ&hl=ko&oi=ao">Sungmin Woo</a>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>IEEE/CVF Computer Vision and Pattern Recognition (CVPR)</em>, 2021 
+    <br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Regularization_Strategy_for_Point_Cloud_via_Rigidly_Mixed_Sample_CVPR_2021_paper.pdf">Paper</a>
+    /
+    <a href="https://github.com/dogyoonlee/RSMix">Code</a>
+    /
+    <a href="data/bib/rsmix2021.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose a novel data augmentation method called Rigid Subset Mix (RSMix) which generates virtual mixed samples by replacing part of the sample with shape-preserved subsets from another sample.
+    </p>
+  </td>
+</tr>
+
+
+
+<tr onmouseout="fpr_stop()" onmouseover="fpr_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='fpr_image'>
+        <img src='images/fpr/fpr_after.png' width="160"></div>
+      <img src='images/fpr/fpr_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function fpr_start() {
+        document.getElementById('fpr_image').style.opacity = "1";
+      }
+
+      function fpr_stop() {
+        document.getElementById('fpr_image').style.opacity = "0";
+      }
+      fpr_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/pdf/2005.13153.pdf">
+      <papertitle>False Positive Removal For 3D Vehicle Detection with Penetrated Point Classifier</papertitle>
+    </a>
+    <br>
+    <a href="https://scholar.google.com/citations?user=q1BRGh0AAAAJ&hl=ko&oi=ao">Sungmin Woo</a>,
+    <a href="https://scholar.google.com/citations?user=OgE2y40AAAAJ&hl=ko&oi=ao">Sangwon Hwang</a>,
+    <a href="https://scholar.google.com/citations?user=hDyC0w0AAAAJ&hl=ko&oi=sra">Woojin Kim</a>,
+    <a href="https://scholar.google.com/citations?user=1b4K9wsAAAAJ&hl=ko&oi=ao">Junhyeop Lee</a>,
+    <strong>Dogyoon Lee</strong>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>IEEE International Conference on Image Processing (ICIP)</em>, 2020
+    <br>
+    <a href="https://arxiv.org/pdf/2005.13153.pdf">Paper</a>
+    /
+    <a href="data/bib/fpr2020.txt">bib</a>
+    <!-- /
+    <a href="https://github.com/dogyoonlee/RSMix">Code</a> -->
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose a novel post-processing method to remove false positives in 3D vehicle detection utilizing the characteristics of the LiDAR censor itself.
+    </p>
+  </td>
+</tr>
+
+
+</tbody></table>
+
+				
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Misc</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+					
+          <!-- <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+            <td width="75%" valign="center">
+              <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
+              <br>
+              <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Longuet-Higgins Award Committee Member, CVPR 2021</a>
+              <br>
+              <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+              <br>
+              <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/cs188.jpg" alt="cs188">
+            </td>
+            <td width="75%" valign="center">
+              <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
+              <br>
+              <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
+              <br>
+              <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
+            </td>
+          </tr>
+					
+
+          <tr>
+            <td align="center" style="padding:20px;width:25%;vertical-align:middle">
+							<heading>Basically <br> Blog Posts</heading>
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
+              <br>
+              <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
+              <br>
+              <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
+            </td>
+          </tr>
+					 -->
+					
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                This website's source code is borrowed from <a href="https://github.com/jonbarron/jonbarron_website">jonbarron's website</a>.
+              </p>
+              <p style="text-align:right;font-size:small;">
+                Last updated February 2023.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
