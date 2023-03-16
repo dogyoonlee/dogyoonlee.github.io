@@ -1,0 +1,6 @@
+@article{cho2022domain,
+  title={Domain Alignment and Temporal Aggregation for Unsupervised Video Object Segmentation},
+  author={Cho, Suhwan and Lee, Minhyeok and Lee, Seunghoon and Lee, Sangyoun},
+  journal={arXiv preprint arXiv:2211.12036},
+  year={2022}
+}
