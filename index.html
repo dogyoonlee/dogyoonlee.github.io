@@ -103,7 +103,53 @@
   </td>
 </tr>
 
+<tr onmouseout="tsa_stop()" onmouseover="tsa_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='tsa_image'>
+        <img src='images/tsa/tsa_after.png' width="160"></div>
+      <img src='images/tsa/tsa_before.jpg' width="160">
+    </div>
+    <script type="text/javascript">
+      function tsa_start() {
+        document.getElementById('tsa_image').style.opacity = "1";
+      }
 
+      function tsa_stop() {
+        document.getElementById('tsa_image').style.opacity = "0";
+      }
+      tsa_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/pdf/2303.04376.pdf">
+      <papertitle>TSANET: Temporal and Scale Alignment for Unsupervised Video Object Segmentation</papertitle>
+    </a>
+    <br>
+    <a href="https://github.com/iseunghoon">Seunghoon Lee</a>,
+    <a href="https://suhwan-cho.github.io">Suhwan Cho</a>,
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>IEEE International Conference on Image Processing (ICIP)</em>, 2023
+    <br>
+    <a href="https://arxiv.org/pdf/2303.04376.pdf">Paper</a>
+    /
+    <a href="https://">Code</a>
+    /
+    <a href="data/bib/tsa2023.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose a novel framework for unsupervised video object segmentation, which can utilize both contextual and motion information from adjacent frames, introducing a temporal and scale alignment network (TSANet).
+    </p>
+  </td>
+</tr>
 
 <tr onmouseout="easn_stop()" onmouseover="easn_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
@@ -154,8 +200,6 @@
   </td>
 </tr>
 
-
-
 <tr onmouseout="robustlane_stop()" onmouseover="robustlane_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -204,7 +248,6 @@
     </p>
   </td>
 </tr>
-
 
 <tr onmouseout="rsmix_stop()" onmouseover="rsmix_start()"   bgcolor="#ffffd0">
   <td style="padding:20px;width:25%;vertical-align:middle">
@@ -256,8 +299,6 @@
   </td>
 </tr>
 
-
-
 <tr onmouseout="fpr_stop()" onmouseover="fpr_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -306,7 +347,6 @@
     </p>
   </td>
 </tr>
-
 
 </tbody></table>
 
@@ -518,56 +558,7 @@
               </p>
             </td>
           </tr>
-          
-
-          <tr onmouseout="tsa_stop()" onmouseover="tsa_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='tsa_image'>
-                  <img src='images/tsa/tsa_after.png' width="160"></div>
-                <img src='images/tsa/tsa_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function tsa_start() {
-                  document.getElementById('tsa_image').style.opacity = "1";
-                }
-          
-                function tsa_stop() {
-                  document.getElementById('tsa_image').style.opacity = "0";
-                }
-                tsa_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
-              <a href="https://arxiv.org/pdf/2303.04376.pdf">
-                <papertitle>TSANET: Temporal and Scale Alignment for Unsupervised Video Object Segmentation</papertitle>
-              </a>
-              <br>
-              <a href="https://github.com/iseunghoon">Seunghoon Lee</a>,
-              <a href="https://suhwan-cho.github.io">Suhwan Cho</a>,
-              <strong>Dogyoon Lee</strong>,
-              <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
-              <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
-              <br>
-              <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
-              <em>Preprint</em>, 2023 
-              <br>
-              <a href="https://arxiv.org/pdf/2303.04376.pdf">Paper</a>
-              /
-              <a href="https://">Code</a>
-              /
-              <a href="data/bib/tsa2023.txt">bib</a>
-              <!-- /
-              <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
-              <p></p>
-              <p>
-              <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
-              We propose a novel framework for unsupervised video object segmentation, which can utilize both contextual and motion information from adjacent frames, introducing a temporal and scale alignment network (TSANet).
-              </p>
-            </td>
-          </tr>
-          
+        
 
           <!-- <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
