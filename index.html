@@ -151,7 +151,7 @@
   </td>
 </tr>
 
-<tr onmouseout="tsa_stop()" onmouseover="mkconv_start()">
+<tr onmouseout="mkconv_stop()" onmouseover="mkconv_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
       <div class="two" id='mkconv_image'>
@@ -163,10 +163,10 @@
         document.getElementById('mkconv_image').style.opacity = "1";
       }
 
-      function tsa_stop() {
+      function mkconv_stop() {
         document.getElementById('mkconv_image').style.opacity = "0";
       }
-      tsa_stop()
+      mkconv_stop()
     </script>
   </td>
   <td style="padding:20px;width:75%;vertical-align:middle">
