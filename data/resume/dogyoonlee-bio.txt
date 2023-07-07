@@ -1,1 +1,5 @@
-Dogyoon Lee is an integrated Ph.D student at Yonsei University in Seoul, where I work on computer vision and machine learning.
+Dogyoon Lee is Ph.D candidate at Yonsei University in Seoul, where I work on computer vision and machine learning.
+
+His research mainly focuses on various 3D computer vision tasks using images and point cloud. Recent research field is related to neural rendering and its applications.
+
+He is always open to collaborations or suggestions. Please feel free to contact him if you have any questions or suggestions. :)
