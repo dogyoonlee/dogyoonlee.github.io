@@ -110,6 +110,55 @@
   </td>
 </tr>
 
+          
+<tr onmouseout="hdgcn_stop()" onmouseover="hdgcn_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='hdgcn_image'>
+        <img src='images/hdgcn/hdgcn_after.png' width="160"></div>
+      <img src='images/hdgcn/hdgcn_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function hdgcn_start() {
+        document.getElementById('hdgcn_image').style.opacity = "1";
+      }
+
+      function hdgcn_stop() {
+        document.getElementById('hdgcn_image').style.opacity = "0";
+      }
+      hdgcn_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/pdf/2208.10741.pdf">
+      <papertitle>Hierarchically Decomposed Graph Convolutional Networks for Skeleton- Based Action Recognition</papertitle>
+    </a>
+    <br>
+    <a href="https://github.com/Jho-Yonsei">Jungho Lee</a>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2023 
+    <br>
+    <a href="https://arxiv.org/pdf/2208.10741.pdf">Paper</a>
+    /
+    <a href="https://github.com/Jho-Yonsei/HD-GCN">Code</a>
+    /
+    <a href="data/bib/hdgcn2023.txt">bib</a>
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose a hierarchically decomposed graph convolution with a novel hierarchically decomposed graph, which consider the sematic correlation between the joints and the edges of the human skeleton.
+    </p>
+  </td>
+</tr>
+
+
 <tr onmouseout="tsa_stop()" onmouseover="tsa_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -463,54 +512,6 @@
               <p>
               <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
               We propose novel deformable point sampling method and global-local aggregation architecture to integrate object's global information, background, and boundary local information to improve the camouflaged object detection.
-              </p>
-            </td>
-          </tr>
-          
-          
-          <tr onmouseout="hdgcn_stop()" onmouseover="hdgcn_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='hdgcn_image'>
-                  <img src='images/hdgcn/hdgcn_after.png' width="160"></div>
-                <img src='images/hdgcn/hdgcn_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function hdgcn_start() {
-                  document.getElementById('hdgcn_image').style.opacity = "1";
-                }
-          
-                function hdgcn_stop() {
-                  document.getElementById('hdgcn_image').style.opacity = "0";
-                }
-                hdgcn_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://dreamfusion3d.github.io/"> -->
-              <a href="https://arxiv.org/pdf/2208.10741.pdf">
-                <papertitle>Hierarchically Decomposed Graph Convolutional Networks for Skeleton- Based Action Recognition</papertitle>
-              </a>
-              <br>
-              <a href="https://github.com/Jho-Yonsei">Jungho Lee</a>,
-              <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
-              <strong>Dogyoon Lee</strong>,
-              <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
-              <br>
-              <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
-              <em>Pending</em>, 2023 
-              <br>
-              <a href="https://arxiv.org/pdf/2208.10741.pdf">Paper</a>
-              /
-              <a href="https://github.com/Jho-Yonsei/HD-GCN">Code</a>
-              /
-              <a href="data/bib/hdgcn2023.txt">bib</a>
-              <!-- /
-              <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
-              <p></p>
-              <p>
-              <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
-              We propose a hierarchically decomposed graph convolution with a novel hierarchically decomposed graph, which consider the sematic correlation between the joints and the edges of the human skeleton.
               </p>
             </td>
           </tr>
