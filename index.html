@@ -58,7 +58,7 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
-      
+<!-- 
 <tr onmouseout="dpnerf_stop()" onmouseover="dpnerf_start()"  bgcolor="#ffffd0">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -80,7 +80,6 @@
     </script>
   </td>
   <td style="padding:20px;width:75%;vertical-align:middle">
-    <!-- <a href="https://dreamfusion3d.github.io/"> -->
     <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Lee_DP-NeRF_Deblurred_Neural_Radiance_Field_With_Physical_Scene_Priors_CVPR_2023_paper.html">
       <papertitle>DP-NeRF: Deblurred Neural Radiance Field with Physical Scene Priors</papertitle>
     </a>
@@ -90,7 +89,6 @@
     <a href="https://scholar.google.com/citations?user=flyFxPsAAAAJ&hl=ko&oi=ao">Chajin Shin</a>,
 		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
     <br>
-    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
     <em>IEEE/CVF Computer Vision and Pattern Recognition (CVPR)</em>, 2023 
     <br>
     <a href="https://dogyoonlee.github.io/dpnerf">Project page</a>
@@ -100,16 +98,56 @@
     <a href="https://github.com/dogyoonlee/DP-NeRF">Code</a>
     /
     <a href="data/bib/dpnerf2023.txt">bib</a>
-    <!-- /
-    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
     <p></p>
     <p>
-    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We impose the physical constraints on the blurring kernel of neural radiance field to construct clean neural radiance field from blurry images.
+    </p>
+  </td>
+</tr> -->
+
+<tr onmouseout="dpnerf_stop()" onmouseover="dpnerf_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='dpnerf_image'>
+        <img src='images/dpnerf/dpnerf_after.png' width="160"></div>
+      <img src='images/dpnerf/dpnerf_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function dpnerf_start() {
+        document.getElementById('dpnerf_image').style.opacity = "1";
+      }
+
+      function dpnerf_stop() {
+        document.getElementById('dpnerf_image').style.opacity = "0";
+      }
+      dpnerf_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Lee_DP-NeRF_Deblurred_Neural_Radiance_Field_With_Physical_Scene_Priors_CVPR_2023_paper.html">
+      <papertitle>DP-NeRF: Deblurred Neural Radiance Field with Physical Scene Priors</papertitle>
+    </a>
+    <br>
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://scholar.google.com/citations?user=flyFxPsAAAAJ&hl=ko&oi=ao">Chajin Shin</a>,
+		<a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <em>IEEE/CVF Computer Vision and Pattern Recognition (CVPR)</em>, 2023 
+    <br>
+    <a href="https://dogyoonlee.github.io/dpnerf">Project page</a>
+    /
+    <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Lee_DP-NeRF_Deblurred_Neural_Radiance_Field_With_Physical_Scene_Priors_CVPR_2023_paper.html">Paper</a>
+    /
+    <a href="https://github.com/dogyoonlee/DP-NeRF">Code</a>
+    /
+    <a href="data/bib/dpnerf2023.txt">bib</a>
+    <p></p>
+    <p>
     We impose the physical constraints on the blurring kernel of neural radiance field to construct clean neural radiance field from blurry images.
     </p>
   </td>
 </tr>
-
           
 <tr onmouseout="hdgcn_stop()" onmouseover="hdgcn_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
