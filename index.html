@@ -36,7 +36,7 @@
                 <a href="mailto:dogyoonlee@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="data/resume/dogyoonlee-resume.pdf">CV</a> &nbsp/&nbsp
                 <!-- <a href="data/resume/dogyoonlee-bio.txt">Bio</a> &nbsp/&nbsp -->
-                <a href="https://scholar.google.com/citations?user=gX4ko0IAAAAJ&hl=ko">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=ww2vWOcAAAAJ&hl=ko">Google Scholar</a> &nbsp/&nbsp
                 <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
                 <a href="https://github.com/dogyoonlee/">Github</a>
               </p>
@@ -49,7 +49,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publication</heading>
+              <heading>Selected Publication</heading>
               <!-- <p> -->
                 <!-- I'm interested in 2D/3D computer vision, graphics, and machine learning. Recent research topic is mainly related to neural rendering with various conditions. Representative papers are <span class="highlight">highlighted</span>. -->
               <!-- </p> -->
@@ -654,6 +654,60 @@
         </td>
       </tr>
       
+      <tr onmouseout="svl_stop()" onmouseover="svl_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='svl_image'>
+              <img src='images/svl/svl_after.png' width="160">
+            </div>
+            <img src='images/svl/svl_before.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function svl_start() {
+              document.getElementById('svl_image').style.opacity = "1";
+            }
+      
+            function svl_stop() {
+              document.getElementById('svl_image').style.opacity = "0";
+            }
+            svl_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <!-- <a href="https://dreamfusion3d.github.io/"> -->
+          <a href="https://arxiv.org/pdf/2311.17952.pdf">
+            <papertitle>Synchronizing Vision and Language: Bidirectional Token-Masking AutoEncoder for Referring Image Segmentation</papertitle>
+          </a>
+          <br>
+          <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+          <strong>Dogyoon Lee</strong>,
+          <a href="https://jho-yonsei.github.io">Jungho Lee</a>,
+          <a href="https://suhwan-cho.github.io">Suhwan Cho</a>,
+          Heeseung Choi,
+          Ig-jae Kim,
+          <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+          <br>
+          <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+          <em>Pending</em>, 2024 
+          <br>
+          <a href="https://arxiv.org/pdf/2311.17952.pdf">Paper</a>
+          /
+          <a href="https://github.com/Hydragon516/SVL">Code</a>
+          /
+          <a href="data/bib/svl2024.txt">bib</a>
+          <!-- /
+          <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+          <p></p>
+          <p>
+          <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+          We propose novel bi-directional token-masking autoencoder (BTMAE) for referring image segmentation (RIS) to effectively utilize contextual information between language and visual features.
+          </p>
+        </td>
+      </tr>
+      
+
+
+
       <!-- <tr>
         <tr>
         <td style="padding:20px;width:25%;vertical-align:middle">

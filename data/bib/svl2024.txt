@@ -1,0 +1,6 @@
+@article{lee2023synchronizing,
+  title={Synchronizing Vision and Language: Bidirectional Token-Masking AutoEncoder for Referring Image Segmentation},
+  author={Lee, Minhyeok and Lee, Dogyoon and Lee, Jungho and Cho, Suhwan and Choi, Heeseung and Kim, Ig-Jae and Lee, Sangyoun},
+  journal={arXiv preprint arXiv:2311.17952},
+  year={2023}
+}
