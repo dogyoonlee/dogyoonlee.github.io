@@ -1,0 +1,6 @@
+@article{lee2024smurf,
+  title={SMURF: Continuous Dynamics for Motion-Deblurring Radiance Fields},
+  author={Lee, Jungho and Lee, Dogyoon and Lee, Minhyeok and Kim, Donghyung and Lee, Sangyoun},
+  journal={arXiv preprint arXiv:2403.07547},
+  year={2024}
+}
