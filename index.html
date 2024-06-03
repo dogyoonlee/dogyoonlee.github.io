@@ -733,7 +733,7 @@
           <!-- </a> -->
           <br>
           <strong>Dogyoon Lee</strong>,
-          <a href="https://scholar.google.com/citations?user=BaFYtwgAAAAJ&hl=ko">Donghyeong Kim</a>
+          <a href="https://scholar.google.com/citations?user=BaFYtwgAAAAJ&hl=ko">Donghyeong Kim</a>,
           <a href="https://jho-yonsei.github.io">Jungho Lee</a>,
           <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
           <a href="https://github.com/iseunghoon">Seunghoon Lee</a>,
@@ -850,6 +850,52 @@
         </td>
       </tr>
 
+      <tr onmouseout="crim_gs_stop()" onmouseover="crim_gs_start()" >
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='crim_gs_image'>
+              <img src='images/crim-gs/crim-gs_after.png' width="160">
+            </div>
+            <img src='images/crim-gs/crim-gs_before.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function crim_gs_start() {
+              document.getElementById('crim_gs_image').style.opacity = "1";
+            }
+      
+            function crim_gs_stop() {
+              document.getElementById('crim_gs_image').style.opacity = "0";
+            }
+            crim_gs_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <!-- <a href="https://dreamfusion3d.github.io/"> -->
+          <!-- <a href="https://arxiv.org/pdf/2311.17952.pdf"> -->
+            <papertitle>CRim-GS: Continuous Rigid Motion-Aware Gaussian Splatting from Motion Blur Images</papertitle>
+          <!-- </a> -->
+          <br>
+          <a href="https://jho-yonsei.github.io">Jungho Lee</a>,
+          <a href="https://scholar.google.com/citations?user=BaFYtwgAAAAJ&hl=ko">Donghyeong Kim</a>,
+          <strong>Dogyoon Lee</strong>,
+          <a href="https://suhwan-cho.github.io">Suhwan Cho</a>,
+          <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+          <br>
+          <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+          <em>Pending</em>, 2024 
+          <br>
+          <!-- <a href="https://arxiv.org/pdf/2311.17952.pdf">Paper</a>
+          /
+          <a href="https://github.com/Hydragon516/SVL">Code</a>
+          /
+          <a href="data/bib/svl2024.txt">bib</a>
+          <p></p> -->
+          <p>
+          <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+          We propose continous motion-aware blur kernel on 3D gaussian splatting utilizing 3D rigid transformation and neural ordinary differential function to reconstruct accurate 3D scene from blurry images with real-time rendering speed..
+          </p>
+        </td>
+      </tr>
 
       <!-- <tr>
         <tr>
