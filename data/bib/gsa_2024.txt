@@ -1,0 +1,7 @@
+@inproceedings{lee2024guided,
+  title={Guided Slot Attention for Unsupervised Video Object Segmentation},
+  author={Lee, Minhyeok and Cho, Suhwan and Lee, Dogyoon and Park, Chaewon and Lee, Jungho and Lee, Sangyoun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3807--3816},
+  year={2024}
+}
