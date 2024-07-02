@@ -105,6 +105,55 @@
   </td>
 </tr> -->
 
+<tr onmouseout="pcvr_stop()" onmouseover="pcvr_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='pcvr_image'>
+        <img src='images/pcvr/pcvr_after.png' width="160">
+      </div>
+      <img src='images/pcvr/pcvr_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function pcvr_start() {
+        document.getElementById('pcvr_image').style.opacity = "1";
+      }
+
+      function pcvr_stop() {
+        document.getElementById('pcvr_image').style.opacity = "0";
+      }
+      pcvr_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <!-- <a href="https://arxiv.org/pdf/2311.17952.pdf"> -->
+      <papertitle>Probabilistic Cost Volume Refinement for Self-supervised Multi-Frame Monocular Depth</papertitle>
+    <!-- </a> -->
+    <br>
+    <a href="https://scholar.google.com/citations?user=q1BRGh0AAAAJ&hl=ko">Sungmin Woo*</a>,
+    <a href="https://scholar.google.com/citations?user=q1BRGh0AAAAJ&hl=ko">Wonjoon Lee*</a>,
+    <a href="https://scholar.google.com/citations?user=hDyC0w0AAAAJ&hl=ko">Woojin Kim</a>,
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>European Conference on Computer Vision (ECCV) </em>, 2024 
+    <br>
+    <!-- <a href="https://arxiv.org/pdf/2311.17952.pdf">Paper</a>
+    /
+    <a href="https://github.com/Hydragon516/SVL">Code</a>
+    /
+    <a href="data/bib/svl2024.txt">bib</a> -->
+    <!-- /
+    <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose novel cost volume refinement model for self-supervised multi-frame monocular depth estimation model.
+    </p>
+  </td>
+</tr>
+
 <tr onmouseout="gsa_stop()" onmouseover="gsa_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -755,55 +804,6 @@
         </td>
       </tr>
 
-      <tr onmouseout="pcvr_stop()" onmouseover="pcvr_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='pcvr_image'>
-              <img src='images/pcvr/pcvr_after.png' width="160">
-            </div>
-            <img src='images/pcvr/pcvr_before.png' width="160">
-          </div>
-          <script type="text/javascript">
-            function pcvr_start() {
-              document.getElementById('pcvr_image').style.opacity = "1";
-            }
-      
-            function pcvr_stop() {
-              document.getElementById('pcvr_image').style.opacity = "0";
-            }
-            pcvr_stop()
-          </script>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <!-- <a href="https://dreamfusion3d.github.io/"> -->
-          <!-- <a href="https://arxiv.org/pdf/2311.17952.pdf"> -->
-            <papertitle>Probabilistic Cost Volume Refinement for Self-supervised Multi-Frame Monocular Depth</papertitle>
-          <!-- </a> -->
-          <br>
-          <a href="https://scholar.google.com/citations?user=q1BRGh0AAAAJ&hl=ko">Sungmin Woo*</a>,
-          <a href="https://scholar.google.com/citations?user=q1BRGh0AAAAJ&hl=ko">Wonjoon Lee*</a>,
-          <a href="https://scholar.google.com/citations?user=hDyC0w0AAAAJ&hl=ko">Woojin Kim</a>,
-          <strong>Dogyoon Lee</strong>,
-          <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
-          <br>
-          <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
-          <em>Pending</em>, 2024 
-          <br>
-          <!-- <a href="https://arxiv.org/pdf/2311.17952.pdf">Paper</a>
-          /
-          <a href="https://github.com/Hydragon516/SVL">Code</a>
-          /
-          <a href="data/bib/svl2024.txt">bib</a> -->
-          <!-- /
-          <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a> -->
-          <p></p>
-          <p>
-          <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
-          We propose novel cost volume refinement model for self-supervised multi-frame monocular depth estimation model.
-          </p>
-        </td>
-      </tr>
-      
       <tr onmouseout="smurf_stop()" onmouseover="smurf_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
