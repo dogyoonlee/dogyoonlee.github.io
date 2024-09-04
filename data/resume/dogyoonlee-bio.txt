@@ -1,5 +1,5 @@
-Dogyoon Lee is Ph.D candidate at Yonsei University in Seoul, where I work on computer vision and machine learning.
+Dogyoon Lee is a research engineer at Samsung Research, Seoul, South Korea. 
 
-His research mainly focuses on various 3D computer vision tasks using images and point cloud. Recent research field is related to neural rendering and its applications.
+His research mainly focuses on various 2D/3D computer vision tasks including generative models, neural rendering, and image/video enhancement. 
 
 He is always open to collaborations or suggestions. Please feel free to contact him if you have any questions or suggestions. :)
