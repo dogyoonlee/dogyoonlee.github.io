@@ -109,6 +109,54 @@
   </td>
 </tr> -->
 
+<tr onmouseout="cocogaussian_stop()" onmouseover="cocogaussian_start()" bgcolor="#ffffd0">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='cocogaussian_image'><video  width=100% muted autoplay loop>
+      <source src="images/coco/coco.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='images/coco/coco.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function cocogaussian_start() {
+        document.getElementById('cocogaussian_image').style.opacity = "1";
+      }
+
+      function cocogaussian_stop() {
+        document.getElementById('cocogaussian_image').style.opacity = "0";
+      }
+      cocogaussian_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://Jho-Yonsei.github.io/CoCoGaussian">
+      <papertitle>CoCoGaussian: Leveraging Circle of Confusion for Gaussian Splatting from Defocused Images</papertitle>
+    </a>
+    <br>
+    
+    <a href="https://jho-yonsei.github.io">Jungho Lee</a>,
+    <a href="https://suhwan-cho.github.io">Suhwan Cho</a>,
+    <a href="https://taeoh-kim.github.io">Taeoh Kim</a>,
+    <a href="https://scholar.google.co.kr/citations?user=RJZ6W24AAAAJ&hl=en">Ho-Deok Jang</a>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://scholar.google.co.kr/citations?user=1uQa-hoAAAAJ&hl=ko">Geonho Cha</a>,
+    <a href="https://scholar.google.com/citations?user=oEKX8h0AAAAJ&hl=ko">Dongyoon Wee</a>,
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko">Sangyoun Lee</a>
+    <br>
+    <em>IEEE/CVF Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025
+    <br>
+    <a href="https://Jho-Yonsei.github.io/CoCoGaussian">project page</a>
+    /
+    <a href="https://arxiv.org/abs/2412.16028">arXiv</a>
+    <p></p>
+    <p>
+    CoCoGaussian models the CoC at the 3D Gaussian level, reconstructing the precise 3D scene and enabling sharp novel view synthesis from defocused images.
+    </p>
+  </td>
+</tr>
+
 <tr onmouseout="pcvr_stop()" onmouseover="pcvr_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
