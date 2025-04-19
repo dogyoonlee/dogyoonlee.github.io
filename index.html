@@ -109,6 +109,56 @@
   </td>
 </tr> -->
 
+<tr onmouseout="sparse_derf_stop()" onmouseover="sparse_derf_start()" >
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='sparse_derf_image'>
+        <img src='images/sparse-derf/sparse-derf_after.png' width="160">
+      </div>
+      <img src='images/sparse-derf/sparse-derf_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function sparse_derf_start() {
+        document.getElementById('sparse_derf_image').style.opacity = "1";
+      }
+
+      function sparse_derf_stop() {
+        document.getElementById('sparse_derf_image').style.opacity = "0";
+      }
+      sparse_derf_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org">
+      <papertitle>Sparse-DeRF: Deblurred Neural Radiance Fields from Sparse View</papertitle>
+    <!-- </a> -->
+    <br>
+    <strong>Dogyoon Lee</strong>,
+    <a href="https://scholar.google.com/citations?user=BaFYtwgAAAAJ&hl=ko">Donghyeong Kim</a>,
+    <a href="https://jho-yonsei.github.io">Jungho Lee</a>,
+    <a href="https://hydragon.co.kr">Minhyeok Lee</a>,
+    <a href="https://github.com/iseunghoon">Seunghoon Lee</a>,
+    <a href="https://scholar.google.com/citations?user=b7A10VYAAAAJ&hl=ko&oi=ao">Sangyoun Lee</a>
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)</em>, 2025
+    <br>
+    <a href="https://dogyoonlee.github.io/sparsederf">Project Page</a>
+    /
+    <a href="https://arxiv.org/">Paper</a>
+    <!-- /
+    <a href="https://github.com/dogyoonlee/Sparse-DeRF">Code</a>
+    /
+    <a href="data/bib/svl2024.txt">bib</a> -->
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    Sparse-DeRF effectively addresses the challenging optimization problem posed by sparse blurry imagers, while simultaneously modeling clean radiance fields. More over, it proposes a more practical research direction by considering real-world scenarios.
+    </p>
+  </td>
+</tr>
+
 <tr onmouseout="cocogaussian_stop()" onmouseover="cocogaussian_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
