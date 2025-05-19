@@ -1,10 +1,3 @@
-<!-- I am a Senior Research Scientist at [Adobe Research](https://research.adobe.com/), San Jose, CA.
-  I received my M.S and Ph.D. degrees in Electrical Engineering from KAIST, Korea in 2009 and 2015 respectively.
-   During my graduate study, I worked at the Robotics and Computer Vision Lab with Prof. In So Kweon as my advisor. 
-   I was an intern at Adobe (San Jose, CA) in 2015 and 2014, and at Microsoft Reseach Asia (Beijing, China) in 2010. 
-   I received the B.S degree in Electrical and Electronic Engineering from Yonsei University, Korea in 2008. 
-   My research area includes computer vision, deep learning, and machine learning. -->
-
 **Bio**
 * Co-Founder at <a href="https://www.linkedin.com/company/offhour-research">Offhour Research</a>, 2025 - Present
 * Research Scientist at <a href="https://research.samsung.com/aicenter_seoul">Samsung Research</a>, 2024 - Present
