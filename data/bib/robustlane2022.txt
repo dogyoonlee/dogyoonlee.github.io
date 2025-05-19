@@ -1,7 +1,0 @@
-@inproceedings{lee2022robust,
-  title={Robust lane detection via expanded self attention},
-  author={Lee, Minhyeok and Lee, Junhyeop and Lee, Dogyoon and Kim, Woojin and Hwang, Sangwon and Lee, Sangyoun},
-  booktitle={Proceedings of the IEEE/CVF winter conference on applications of computer vision},
-  pages={533--542},
-  year={2022}
-}

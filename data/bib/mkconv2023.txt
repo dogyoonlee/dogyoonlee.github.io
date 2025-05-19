@@ -1,5 +1,0 @@
-@article{woomkconv,
-  title={Mkconv: Multidimensional Feature Representation for Point Cloud Analysis},
-  author={Woo, Sungmin and Lee, Dogyoon and Hwang, Sangwon and Lee, Sangyoun and others},
-  journal={Woo jin and Lee, Sangyoun, Mkconv: Multidimensional Feature Representation for Point Cloud Analysis}
-}

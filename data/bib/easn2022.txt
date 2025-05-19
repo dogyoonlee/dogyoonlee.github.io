@@ -1,8 +1,0 @@
-@inproceedings{shin2022expanded,
-  title={Expanded Adaptive Scaling Normalization for End to End Image Compression},
-  author={Shin, Chajin and Lee, Hyeongmin and Son, Hanbin and Lee, Sangjin and Lee, Dogyoon and Lee, Sangyoun},
-  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XVII},
-  pages={390--405},
-  year={2022},
-  organization={Springer}
-}

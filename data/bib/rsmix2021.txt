@@ -1,7 +1,0 @@
-@inproceedings{lee2021regularization,
-  title={Regularization strategy for point cloud via rigidly mixed sample},
-  author={Lee, Dogyoon and Lee, Jaeha and Lee, Junhyeop and Lee, Hyeongmin and Lee, Minhyeok and Woo, Sungmin and Lee, Sangyoun},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={15900--15909},
-  year={2021}
-}

@@ -1,7 +1,0 @@
-@inproceedings{cho2024dual,
-  title={Dual prototype attention for unsupervised video object segmentation},
-  author={Cho, Suhwan and Lee, Minhyeok and Lee, Seunghoon and Lee, Dogyoon and Choi, Heeseung and Kim, Ig-Jae and Lee, Sangyoun},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={19238--19247},
-  year={2024}
-}
