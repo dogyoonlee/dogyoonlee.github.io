@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <table>
+        <tr>
+          <td width="130">
+            <img src="/assets/me.png" width="120">
+          </td>
+          <td>
+            <h2>Dogyoon Lee</h2>
+            <h4>AI/ML Research Scientist<br>
+            Samsung Research, Seoul, Korea</h4>
+            dogyoonlee [at] gmail.com<br>
+            <a href="dogyoonlee@gmail.com">Email</a> |
+            <a href="https://dogyoonlee.github.io/data/resume/dogyoonlee-resume.pdf">CV</a> |
+            <a href="https://github.com/dogyoonlee/">GitHub</a> |
+            <a href="https://www.linkedin.com/in/dogyoon-lee-9475b71b2/">LinkedIn</a> |
+            <a href="https://scholar.google.com/citations?user=ww2vWOcAAAAJ&hl=ko">Google Scholar</a>
+          </td>
+        </tr>
+      </table>
+
+      {{ content }}
+
+      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics-id}}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+    
+      gtag('config', '{{site.analytics-id}}');
+    </script>
+    </body>
+</html>
