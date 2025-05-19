@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **Bio**
 * Co-Founder at <a href="https://www.linkedin.com/company/offhour-research">Offhour Research</a>, 2025 - Present
 * Research Scientist at <a href="https://research.samsung.com/aicenter_seoul">Samsung Research</a>, 2024 - Present
@@ -19,8 +23,8 @@ _I’m always open to research collaborations and academic partnerships. Feel fr
 
 ### 2025
 
-* Sparse-DeRF: Deblurred Neural Radiance Fields from Sparse View
-Dogyoon Lee, Donghyeong Kim, Jungho Lee, Minhyeok Lee, Seunghoon Lee, Sangyoun Lee  <a href="https://dogyoonlee.github.io/sparsederf">[Page]</a>
+* Sparse-DeRF: Deblurred Neural Radiance Fields from Sparse View <a href="https://dogyoonlee.github.io/sparsederf">[Page]</a>
+Dogyoon Lee, Donghyeong Kim, Jungho Lee, Minhyeok Lee, Seunghoon Lee, Sangyoun Lee  
 IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025  
 
 * CoMoGaussian: Continuous Motion-Aware Gaussian Splatting from Motion-Blurred Images <a href="https://jho-yonsei.github.io/CoMoGaussian">[Page]</a>  
