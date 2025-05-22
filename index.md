@@ -23,7 +23,7 @@ _I’m always open to research collaborations and academic partnerships. Feel fr
 
 ### 2025
 * Sparse-DeRF: Deblurred Neural Radiance Fields from Sparse View <a href="https://dogyoonlee.github.io/sparsederf">[Page]</a>  
-**Dogyoon Lee**, Donghyeong Kim, <a href="https://jho-yonsei.github.io">Jungho Lee</a>, <a href="https://hydragon.co.kr">Minhyeok Lee</a>, Seunghoon Lee, Sangyoun Lee
+**Dogyoon Lee**, Donghyeong Kim, <a href="https://jho-yonsei.github.io">Jungho Lee</a>, <a href="https://hydragon.co.kr">Minhyeok Lee</a>, Seunghoon Lee, Sangyoun Lee  
 IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025  
 
 * SMURF: Continuous Dynamics for Motion-Deblurring Radiance Fields <a href="https://jho-yonsei.github.io/SMURF/">[Page]</a>  
