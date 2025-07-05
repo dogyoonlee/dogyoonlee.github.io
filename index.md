@@ -32,7 +32,7 @@ IEEE/CVF Computer Vision and Pattern Recognition Workshop (**CVPRW**), 2025
 
 * CoMoGaussian: Continuous Motion-Aware Gaussian Splatting from Motion-Blurred Images <a href="https://jho-yonsei.github.io/CoMoGaussian">[Page]</a>  
 <a href="https://jho-yonsei.github.io">Jungho Lee</a>, Donghyeong Kim, **Dogyoon Lee**, <a href="https://suhwan-cho.github.io">Suhwan Cho</a>, <a href="https://hydragon.co.kr">Minhyeok Lee</a>, Wonjoon Lee, <a href="https://taeoh-kim.github.io">Taeoh Kim</a>, Dongyoon Wee, Sangyoun Lee  
-arXiv, 2025  
+IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025 
 
 * CoCoGaussian: Leveraging Circle of Confusion for Gaussian Splatting from Defocused Images  <a href="https://jho-yonsei.github.io/CoCoGaussian">[Page]</a>  
 <a href="https://jho-yonsei.github.io">Jungho Lee</a>, <a href="https://suhwan-cho.github.io">Suhwan Cho</a>, <a href="https://taeoh-kim.github.io">Taeoh Kim</a>, Ho-Deok Jang, <a href="https://hydragon.co.kr">Minhyeok Lee</a>, Dongyoon Wee, **Dogyoon Lee**, Sangyoun Lee  
