@@ -3,7 +3,6 @@ layout: default
 ---
 
 **Bio**
-* Co-Founder at <a href="https://www.linkedin.com/company/offhour-research">Offhour Research</a>, 2025 - Present
 * Research Scientist at <a href="https://research.samsung.com/aicenter_seoul">Samsung Research</a>, 2024 - Present
 * Ph.D. in EE, <a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a>, 2019 - 2024
 * B.S. in EE, <a href="https://www.yonsei.ac.kr/en_sc/index.jsp">Yonsei University</a>, 2012 - 2019
