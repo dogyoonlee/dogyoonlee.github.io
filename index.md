@@ -20,6 +20,11 @@ _I’m always open to research collaborations and academic partnerships. Feel fr
 ## Publications 
 <sup>(\* indicates equal contribution)</sup>
 
+### 2026
+* Bidirectional Token-Masking Autoencoder for Referring Image Segmentation <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320326009714">[Page]</a>  
+<a href="https://hydragon.co.kr">Minhyeok Lee</a>, **Dogyoon Lee**, <a href="https://jho-yonsei.github.io">Jungho Lee</a>, <a href="https://suhwan-cho.github.io">Suhwan Cho</a>, Sangyoun Lee  
+Pattern Recognition (**PR**), 2026  
+
 ### 2025
 * Sparse-DeRF: Deblurred Neural Radiance Fields from Sparse View <a href="https://dogyoonlee.github.io/sparsederf">[Page]</a>  
 **Dogyoon Lee**, Donghyeong Kim, <a href="https://jho-yonsei.github.io">Jungho Lee</a>, <a href="https://hydragon.co.kr">Minhyeok Lee</a>, Seunghoon Lee, Sangyoun Lee  
