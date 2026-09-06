@@ -49,7 +49,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025
 European Conference on Computer Vision (**ECCV**), 2024  
 
 * Dual Prototype Attention for Unsupervised Video Object Segmentation <a href="https://github.com/Hydragon516/DPA">[Code]</a>  
-<a href="https://suhwan-cho.github.io">Suhwan Cho\*</a>, <a href="https://hydragon.co.kr">Minhyeok Lee\*</a>, Seunghoon Lee, **Dogyoon Lee**, Sangyoun Lee  
+<a href="https://suhwan-cho.github.io">Suhwan Cho\*</a>, <a href="https://hydragon.co.kr">Minhyeok Lee\*</a>, Seunghoon Lee, **Dogyoon Lee**, Heeseung Choi, Ig-Jae Kim, Sangyoun Lee  
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024  
 
 * Guided Slot Attention for Unsupervised Video Object Segmentation <a href="https://github.com/Hydragon516/GSANet">[Code]</a>  
